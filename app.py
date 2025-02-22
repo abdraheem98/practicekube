@@ -4,8 +4,8 @@ from azure.cosmos import CosmosClient
 app = Flask(__name__)
 
 # Cosmos DB connection details
-url = "https://demodec24cosmos.documents.azure.com:443/"
-key = "qjLGmLul6QJD2yi6wgor2N8Yyk7ZDrGH7lskLzuvKk01dS35Sd3xRpEIk742A0FfBllBTEv55kOMACDbwtgmPw=="
+url = ""
+key = ""
 client = CosmosClient(url, credential=key)
 
 database = client.get_database_client("ECommerceDB")
