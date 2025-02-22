@@ -4,12 +4,12 @@ from azure.cosmos import CosmosClient
 app = Flask(__name__)
 
 # Cosmos DB connection details
-url = ""
-key = ""
+#url = ""
+#key = ""
 client = CosmosClient(url, credential=key)
 
-database = client.get_database_client("ECommerceDB")
-container = database.get_container_client("Products")
+#database = client.get_database_client("ECommerceDB")
+#container = database.get_container_client("Products")
 
 @app.route('/products', methods=['GET'])
 def get_products():
