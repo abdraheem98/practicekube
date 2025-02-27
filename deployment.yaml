@@ -11,9 +11,3 @@ spec:
     metadata:
       labels:
         app: node-app 
-    spec:
-      containers:  # Fixed typo here
-      - name: node-app-conatiner
-        image: abdraheem98/nodeapp:latest
-        ports:  
-          - containerPort: 8080
