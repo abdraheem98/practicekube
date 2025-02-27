@@ -5,6 +5,5 @@ const server = http.createServer((req, res) => {
     res.end('Hello from Kubernetes!\n');
 });
 
-server.listen(8080, () => {
-    console.log('Server running on port 8080');
-});
+
+
